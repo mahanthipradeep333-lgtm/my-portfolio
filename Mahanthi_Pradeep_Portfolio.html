@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mahanthi Pradeep | AI & Data Science Portfolio</title>
+<meta name="description" content="Portfolio of Mahanthi Pradeep — AI & Data Science undergraduate focused on Python, Java, Web Development, Generative AI and Prompt Engineering.">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:Inter,Arial,sans-serif;background:#f6f8fc;color:#172033;line-height:1.6}
+  a{text-decoration:none;color:inherit}
+  .container{width:min(1100px,92%);margin:auto}
+  nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.92);backdrop-filter:blur(12px);border-bottom:1px solid #e5e9f2}
+  .nav-inner{height:70px;display:flex;align-items:center;justify-content:space-between}
+  .logo{font-size:22px;font-weight:800}
+  .logo span{color:#5b5cf0}
+  .nav-links{display:flex;gap:24px;font-size:14px;font-weight:600}
+  .nav-links a:hover{color:#5b5cf0}
+  .hero{padding:90px 0 70px;background:linear-gradient(135deg,#eef0ff,#ffffff 55%,#eafaff)}
+  .hero-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:50px;align-items:center}
+  .badge{display:inline-block;padding:7px 13px;border-radius:30px;background:#e7e8ff;color:#4d4ed7;font-size:13px;font-weight:700;margin-bottom:18px}
+  h1{font-size:clamp(42px,6vw,70px);line-height:1.05;margin-bottom:20px}
+  h1 span{color:#5b5cf0}
+  .hero p{font-size:18px;color:#566074;max-width:650px}
+  .buttons{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap}
+  .btn{padding:12px 20px;border-radius:10px;font-weight:700;border:1px solid #dce1ed}
+  .primary{background:#5b5cf0;color:white;border-color:#5b5cf0}
+  .secondary{background:white}
+  .hero-card{background:white;border:1px solid #e2e6f0;border-radius:22px;padding:28px;box-shadow:0 18px 50px rgba(45,55,90,.1)}
+  .hero-card h3{margin-bottom:15px}
+  .stat{display:flex;justify-content:space-between;padding:13px 0;border-bottom:1px solid #edf0f5;font-size:14px}
+  section{padding:75px 0}
+  .section-title{font-size:34px;margin-bottom:12px}
+  .section-subtitle{color:#687286;margin-bottom:30px}
+  .about{display:grid;grid-template-columns:1.2fr .8fr;gap:30px}
+  .card{background:white;border:1px solid #e3e7ef;border-radius:18px;padding:25px;box-shadow:0 8px 30px rgba(25,35,60,.05)}
+  .skills{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}
+  .skill{background:#f0f2ff;color:#4144b8;padding:8px 12px;border-radius:9px;font-size:13px;font-weight:650}
+  .projects{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+  .project h3{margin-bottom:8px}
+  .project p{color:#616b7d;font-size:14px}
+  .project .tech{margin-top:16px;color:#4d50d8;font-size:12px;font-weight:700}
+  .prompt-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+  .prompt{border-left:4px solid #5b5cf0}
+  .prompt h3{margin-bottom:8px}
+  .prompt p{color:#626c7d;font-size:14px}
+  .prompt code{display:block;background:#111827;color:#e7eaf0;padding:14px;border-radius:10px;margin-top:12px;font-size:12px;white-space:pre-wrap}
+  .timeline{display:grid;gap:18px}
+  .timeline-item{display:grid;grid-template-columns:170px 1fr;gap:25px}
+  .date{font-weight:800;color:#5b5cf0}
+  .timeline-item p{color:#626c7d}
+  .contact{background:#12172a;color:white;border-radius:25px;padding:45px}
+  .contact p{color:#c6ccda;margin:10px 0 22px}
+  .contact-links{display:flex;gap:12px;flex-wrap:wrap}
+  .contact-links a{background:#202742;padding:10px 14px;border-radius:9px;font-size:13px}
+  footer{text-align:center;padding:28px;color:#7b8495;font-size:13px}
+  @media(max-width:800px){
+    .hero-grid,.about,.projects,.prompt-grid{grid-template-columns:1fr}
+    .nav-links{display:none}
+    .timeline-item{grid-template-columns:1fr;gap:5px}
+    section{padding:55px 0}
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="container nav-inner">
+    <div class="logo">MP<span>.</span></div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#prompts">Prompt Engineering</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="badge">AI & Data Science Undergraduate</div>
+      <h1>Hi, I'm <span>Mahanthi Pradeep.</span></h1>
+      <p>
+        I build practical solutions using Python, Java, Web Development,
+        Generative AI, Machine Learning and Prompt Engineering.
+        I enjoy turning ideas into useful AI-powered applications.
+      </p>
+      <div class="buttons">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn secondary" href="mailto:mahanthiprdeep333@gmail.com">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <h3>Quick Profile</h3>
+      <div class="stat"><span>Degree</span><b>B.Tech — AI & Data Science</b></div>
+      <div class="stat"><span>CGPA</span><b>7.2</b></div>
+      <div class="stat"><span>Focus</span><b>Generative AI & ML</b></div>
+      <div class="stat"><span>Location</span><b>Vizianagaram</b></div>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <p class="section-subtitle">A student portfolio focused on practical technology and AI.</p>
+    <div class="about">
+      <div class="card">
+        <p>
+          I am an AI & Data Science undergraduate interested in software development,
+          Generative AI and data-driven applications. I have gained hands-on experience
+          through academic projects and a Generative AI internship, working with AI tools,
+          prompt-based applications and machine-learning workflows.
+        </p>
+        <div class="skills">
+          <span class="skill">Python</span><span class="skill">Java</span>
+          <span class="skill">HTML</span><span class="skill">CSS</span>
+          <span class="skill">Generative AI</span><span class="skill">Prompt Engineering</span>
+          <span class="skill">RAG</span><span class="skill">GitHub</span>
+          <span class="skill">Git</span><span class="skill">Scikit-learn</span>
+        </div>
+      </div>
+      <div class="card" id="skills">
+        <h3>Soft Skills</h3>
+        <div class="skills">
+          <span class="skill">Communication</span>
+          <span class="skill">Problem Solving</span>
+          <span class="skill">Presentation</span>
+          <span class="skill">Public Speaking</span>
+          <span class="skill">Leadership</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <h2 class="section-title">Featured Projects</h2>
+    <p class="section-subtitle">Practical projects combining software development and AI.</p>
+    <div class="projects">
+      <article class="card project">
+        <h3>InterviewGPT</h3>
+        <p>
+          AI-powered interview preparation platform designed to help users practice
+          interviews and aptitude rounds. The project explores practical AI-driven
+          features and modern web application architecture.
+        </p>
+        <div class="tech">FastAPI · React · PostgreSQL · Generative AI · MCP</div>
+      </article>
+
+      <article class="card project">
+        <h3>AI Career Guidance System</h3>
+        <p>
+          AI-powered career guidance concept that analyzes user profiles, assessments
+          and skills to provide data-driven career and skill-development suggestions.
+        </p>
+        <div class="tech">AI · Data Analysis · Recommendation System</div>
+      </article>
+
+      <article class="card project">
+        <h3>EZ Pass</h3>
+        <p>
+          Web-based toll management system for vehicle registration, payments and
+          transaction tracking, designed to improve the efficiency of digital toll processes.
+        </p>
+        <div class="tech">Web Development · Database · Digital Payments</div>
+      </article>
+
+      <article class="card project">
+        <h3>Smart Ambulance Detection System</h3>
+        <p>
+          Simulation-based emergency traffic system that detects ambulance movement
+          and provides priority clearance to reduce traffic delays and support faster response.
+        </p>
+        <div class="tech">Simulation · Smart Traffic · Emergency Response</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="prompts">
+  <div class="container">
+    <h2 class="section-title">Prompt Engineering</h2>
+    <p class="section-subtitle">
+      How I structure prompts to make Generative AI outputs more accurate, useful and consistent.
+    </p>
+    <div class="prompt-grid">
+      <div class="card prompt">
+        <h3>1. Role + Context Prompting</h3>
+        <p>Give the model a clear role and enough project context before asking for an output.</p>
+        <code>Act as an AI interview coach.
+Context: The user is preparing for a Java developer interview.
+Task: Create 10 questions from beginner to advanced.
+Constraint: Give a short answer key for each.</code>
+      </div>
+      <div class="card prompt">
+        <h3>2. Structured Output</h3>
+        <p>Define the exact format so the result can be used directly inside an application.</p>
+        <code>Return the career recommendations using:
+1. Skill gap
+2. Suggested learning topic
+3. Project idea
+4. Expected outcome</code>
+      </div>
+      <div class="card prompt">
+        <h3>3. Few-Shot Examples</h3>
+        <p>Provide examples to demonstrate the desired style or classification pattern.</p>
+        <code>Example:
+Input: Python + SQL → Backend Developer
+
+Now classify:
+Input: Python + ML + Statistics → ?</code>
+      </div>
+      <div class="card prompt">
+        <h3>4. Constraints & Iteration</h3>
+        <p>Set boundaries, review the output and refine the prompt for better results.</p>
+        <code>Rewrite the response in simple student-friendly language.
+Maximum: 120 words.
+Use bullet points.
+Avoid unnecessary technical jargon.</code>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="container">
+    <h2 class="section-title">Experience & Education</h2>
+    <p class="section-subtitle">Academic background and hands-on Generative AI experience.</p>
+    <div class="card timeline">
+      <div class="timeline-item">
+        <div class="date">2026</div>
+        <div>
+          <h3>Generative AI — Pixel Wind Technologies</h3>
+          <p>
+            2-month hands-on experience with Generative AI concepts, AI tools,
+            prompt-based applications and practical AI/ML tasks using Jupyter Notebook.
+          </p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="date">2023–2027</div>
+        <div>
+          <h3>B.Tech — Satya Institute of Technology and Management</h3>
+          <p>AI & Data Science · CGPA: 7.2 · Vizianagaram</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="date">2021–2023</div>
+        <div>
+          <h3>Intermediate — Ski Akshara Junior College</h3>
+          <p>GPA: 78.6% · Cheepurupalle</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="date">2020</div>
+        <div>
+          <h3>SSC — ZPHS School</h3>
+          <p>GPA: 94.4% · Thondrangi</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="contact">
+      <h2>Let's Connect</h2>
+      <p>Interested in AI, software development, Generative AI and practical technology projects.</p>
+      <div class="contact-links">
+        <a href="mailto:mahanthiprdeep333@gmail.com">Email</a>
+        <a href="https://github.com/mahanthiprdeep" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/mahanthi-pradeep" target="_blank">LinkedIn</a>
+        <a href="tel:+919392840458">+91 93928 40458</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Mahanthi Pradeep · AI & Data Science Portfolio
+</footer>
+
+</body>
+</html>
